@@ -3,6 +3,11 @@
 
 This is the first React Project to build with Microverse. It's about getting fammiliar with Create React App
 
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/74814780/139741315-0a256ac0-18d4-4052-97a8-b35b409ba543.png)
+
+
 ## Built With
 
 - [React](https://reactjs.org/)
