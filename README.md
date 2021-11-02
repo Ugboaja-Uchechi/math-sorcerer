@@ -5,8 +5,8 @@ This is the first React Project to build with Microverse. It's about creating a 
 
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/74814780/139863626-afbe3dbc-1d07-43b1-b4f4-bec5d9015587.png)
 
+![image](https://user-images.githubusercontent.com/74814780/139863756-ba76a9ab-ca52-4f9f-a1eb-8444a9cfae6b.png)
 
 ## Built With
 
