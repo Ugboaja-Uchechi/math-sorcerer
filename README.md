@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This is the first React Project to build with Microverse. It's about creating a calculator app.
+This is the first React Project to build with Microverse. It's about creating a calculator app
 
 ## Screenshot
 
