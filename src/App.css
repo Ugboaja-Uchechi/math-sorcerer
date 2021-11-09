@@ -91,11 +91,6 @@ span {
   cursor: pointer;
 }
 
-span {
-  border-right: 2px solid black;
-  padding-left: 1rem;
-}
-
 .para {
   margin-top: 3rem;
 }
