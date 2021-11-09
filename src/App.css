@@ -46,3 +46,8 @@ button:hover {
   color: orangered;
   text-decoration: underline;
 }
+
+.cover {
+  margin-left: 2.2rem;
+  font-size: 20px;
+} 
