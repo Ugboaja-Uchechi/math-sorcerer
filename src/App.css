@@ -54,11 +54,6 @@ button:hover {
   cursor: pointer;
 }
 
-.active-link {
-  color: orangered;
-  text-decoration: underline;
-}
-
 .cover {
   margin-left: 2.2rem;
   font-size: 20px;
@@ -86,9 +81,19 @@ span {
   padding-left: 1rem;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.link {
+  text-decoration: underline;
+  color: #578bb7;
+}
+
+.link:hover {
+  color: #578bb7;
+  cursor: pointer;
+}
+
+span {
+  border-right: 2px solid black;
+  padding-left: 1rem;
 }
 
 .para {
