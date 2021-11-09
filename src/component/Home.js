@@ -2,10 +2,6 @@ import React from 'react';
 
 const Home = () => (
   <>
-    <header>
-      <h1>Math Magicians</h1>
-
-    </header>
     <main>
       <h3>Welcome to our page!!</h3>
       <p className="para">

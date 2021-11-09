@@ -2,11 +2,7 @@ import React from 'react';
 
 const Quotes = () => (
   <>
-    <header>
-      <h1>Math Magicians</h1>
-
-    </header>
-    <h3>
+    <h3 className="quote">
       Mathematics is not about numbers, equations, computations,
       <br />
       {' '}

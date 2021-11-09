@@ -20,15 +20,20 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav>
-      <ul>
-        {links.map((link) => (
-          <li key={link.id}>
-            <NavLink to={link.path} exact>{link.text}</NavLink>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <>
+      <header>
+        <h1>Math Magicians</h1>
+        <nav>
+          <ul>
+            {links.map((link) => (
+              <li key={link.id}>
+                <NavLink to={link.path} exact>{link.text}</NavLink>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </header>
+    </>
   );
 };
 export default Navbar;
