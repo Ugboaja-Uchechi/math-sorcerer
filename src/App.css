@@ -41,3 +41,8 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}

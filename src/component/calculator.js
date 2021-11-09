@@ -21,7 +21,10 @@ const MyCalculator = () => {
   }
   return (
     <main>
-      <div className="result">{result}</div>
+      <section>
+        <h3 className="cover">Lets do some math!</h3>
+      </section>
+      <section className="result">{result}</section>
       <div className="symbols">
         <button onClick={clickHandler} name="AC" type="button">AC</button>
         <button onClick={clickHandler} name="+/-" type="button">+/-</button>
