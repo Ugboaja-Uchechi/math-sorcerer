@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+body {
+  font-family: 'Balsamiq Sans', sans-serif;
+}
+
 main {
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align-items: baseline;
+}
+
+.container {
   width: 36%;
+  margin-left: auto;
+  padding-right: 3.8rem;
 }
 
 .result {
@@ -40,4 +53,58 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+.cover {
+  margin-left: 2.2rem;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  padding-right: 2rem;
+}
+
+span {
+  border-right: 2px solid black;
+  padding-left: 1rem;
+}
+
+.link {
+  text-decoration: underline;
+  color: #578bb7;
+}
+
+.link:hover {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.para {
+  margin-top: 3rem;
+}
+
+p {
+  text-align: justify;
+}
+
+.quote {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
 }
