@@ -6,7 +6,7 @@ This is the first React Project to build with Microverse. It's about creating a 
 ## Live Link
 [Heroku](https://maths-sorcerer.herokuapp.com/)
 
-[Netlify](https://adoring-lovelace-d54d85.netlify.app/)
+[Netlify](https://math-sorcerer.netlify.app/)
 
 ## Screenshot
 
