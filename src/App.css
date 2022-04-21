@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Balsamiq Sans', sans-serif;
+  margin: 0;
 }
 
 main {
@@ -107,4 +108,32 @@ p {
   top: 40%;
   left: 50%;
   text-align: center;
+}
+
+@media screen 
+and (min-device-width: 320px)
+and (max-device-width: 650px){
+  header {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+
+  li {
+    padding-right: 1rem;
+  }
+
+  main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 0;
+  }
 }
