@@ -3,6 +3,7 @@
 body {
   font-family: 'Balsamiq Sans', sans-serif;
   margin: 0;
+  height: 100vh;
 }
 
 main {
@@ -43,6 +44,10 @@ main {
   background-color: #f5913e;
 }
 
+.orange:hover{
+  background-color: #efac5c;
+}
+
 button {
   padding: 1.5rem 0.4rem;
   border: 2px solid #c0c0c0;
@@ -54,6 +59,7 @@ button {
 
 button:hover {
   cursor: pointer;
+  background-color: #c0c0c0;
 }
 
 .cover {
@@ -92,6 +98,11 @@ span {
   color: blue;
   text-decoration: none;
   cursor: pointer;
+}
+
+.link.active {
+  color: hsl(11deg 80% 45%);
+  text-decoration: none;
 }
 
 .para {
